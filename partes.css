@@ -2,15 +2,17 @@
 
 header h1{
     text-align: center;
-    padding-top: 30px; 
+    padding-top: 90px; 
     font-style: italic;
-    font-size: 600%;
+    font-size: 70px;
+    font-weight: 600;
 }
 header h5{
     text-align: right;
-    padding-bottom: 30px;
-
-
+    padding-bottom: 60px;
+}
+header hr{
+    margin-top: 40px;
 }
 
 body{
@@ -24,19 +26,22 @@ body{
 .nav{
     list-style-type: none;
     background-color: black;
-    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    overflow: auto;
 
 }
 .nav-li{
-    display: flex;
-    padding: 5px;
-    list-style-type: none;
-    text-decoration: none;
-    color: white;
-    font-size: medium;
+    float: left;
+    padding: 6px;
+    
 }
-.nav-li :hover{
-    background-color: black;
+.nav-li{
     color: white;
+    text-decoration: none;
+}
+.nav-li:hover{
+    background-color: white;
+    color: black;
 }
 
