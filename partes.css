@@ -9,17 +9,23 @@ header h1{
 header h5{
     text-align: right;
     padding-bottom: 30px;
-    
+
 
 }
 
 body{
     background-image: url(https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2019/08/cocina-de-la-abuela.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
 }
 
 .nav{
+    list-style-type: none;
     background-color: black;
+    overflow: hidden;
+
 }
 .nav-li{
     display: flex;
