@@ -1,6 +1,17 @@
 *{margin: 0px;}
 
+header{
+    background-image: url(https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2019/08/cocina-de-la-abuela.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    
+}
 
+div{
+    background-color: bisque;
+}
 
 header h1{
     text-align: center;
@@ -10,7 +21,7 @@ header h1{
     font-weight: 600;
 }
 header h5{
-    text-align: right ;
+    text-align: left;
     padding-bottom: 60px;
     
 }
@@ -18,15 +29,6 @@ header hr{
     margin-top: 48px;
 }
 
-body{
-    background-color: black;
-    background-image: url(https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2019/08/cocina-de-la-abuela.jpg);
-    background-size: 85%;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: fixed;
-    
-}
 
 .nav{
     list-style-type: none;
