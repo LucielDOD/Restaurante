@@ -1,5 +1,10 @@
 *{margin: 0px;}
 
+header{
+    background-color: black;
+    height: 110%;
+}
+
 header h1{
     text-align: center;
     padding-top: 90px; 
@@ -12,12 +17,12 @@ header h5{
     padding-bottom: 60px;
 }
 header hr{
-    margin-top: 40px;
+    margin-top: 48px;
 }
 
 body{
     background-image: url(https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2019/08/cocina-de-la-abuela.jpg);
-    background-size: 100%;
+    background-size: 85%;
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
