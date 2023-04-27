@@ -1,28 +1,32 @@
 *{margin: 0px;}
 
+header h1{
+    text-align: center;
+    padding-top: 30px; 
+    font-style: italic; 
+}
+header h5{
+    text-align: right;
+    padding-bottom: 30px;
+}
 
 body{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB6ZV6GGy-8vFyarNlLGnXg13-WGgpOOfnvg&usqp=CAU);
+    background-image: url(https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2019/08/cocina-de-la-abuela.jpg);
     background-size: 100%;
 }
 
-header{
-    padding: 40px;
-    padding-top: 100px;
-}
-
-header h1{
-    color: blue;
-    text-align: center;
-    font-style: italic;
-    font-size: 50px;
-}
-
-header h5{
-    text-align: right;
-}
-
-header hr{
-    padding: 0.7px;
+.nav{
     background-color: black;
 }
+.nav-li{
+    display: flex;
+    padding: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+.nav-li :hover{
+    background-color: black;
+    color: white};
+}
+
