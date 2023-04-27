@@ -1,0 +1,28 @@
+*{margin: 0px;}
+
+
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB6ZV6GGy-8vFyarNlLGnXg13-WGgpOOfnvg&usqp=CAU);
+    background-size: 100%;
+}
+
+header{
+    padding: 40px;
+    padding-top: 100px;
+}
+
+header h1{
+    color: blue;
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+}
+
+header h5{
+    text-align: right;
+}
+
+header hr{
+    padding: 0.7px;
+    background-color: black;
+}
