@@ -3,11 +3,13 @@
 header h1{
     text-align: center;
     padding-top: 30px; 
-    font-style: italic; 
+    font-style: italic;
+    font-size: 600%;
 }
 header h5{
     text-align: right;
     padding-bottom: 30px;
+
 }
 
 body{
@@ -24,6 +26,7 @@ body{
     list-style-type: none;
     text-decoration: none;
     color: white;
+    font-size: medium;
 }
 .nav-li :hover{
     background-color: black;
