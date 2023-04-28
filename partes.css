@@ -2,32 +2,38 @@
 
 header{
     background-image: url(https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2019/08/cocina-de-la-abuela.jpg);
-    background-size: 80%;
+    background-size: 84%;
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
     
 }
 
-div{
+.div-1{
     background-color: bisque;
+}
+
+body{
+    background-color: goldenrod;
 }
 
 header h1{
     text-align: center;
-    padding-top: 90px; 
+    padding-top: 10%; 
     font-style: italic;
-    font-size: 70px;
+    font-size: 10cqmax;
     font-weight: 600;
 }
 header h3{
     text-align: left;
-    padding-bottom: 60px;
-    margin-left: 30%;
-    
+    padding-bottom: 6%;
+    margin-left: 13%;
+    font-size: 2cqmax;
 }
 header hr{
     margin-top: 48px;
+    background-color: black;
+    padding: 1px;
 }
 
 
@@ -41,7 +47,10 @@ header hr{
 }
 .nav-li{
     float: left;
-    padding: 6px;
+    padding: 1cqmin;
+    font-size: 1.5cqmax;
+    padding-left: 1.2cqmax;
+    padding-right: 1.2cqmax;
     
 }
 .nav-li{
@@ -52,5 +61,55 @@ header hr{
     background-color: white;
     color: black;
     cursor: pointer;
+}
+nav i{
+    color: chocolate;
+    vertical-align: middle;
+    padding-top: 0.6cqmax;
+    font-size: 1.5cqmax;
+    margin-left: 48cqmax; 
+}
+
+.div-2{
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: blanchedalmond;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    
+}
+.div-2 h2{
+    text-decoration: underline;
+    color: midnightblue;
+    background-color: burlywood;
+}
+.div-2 p{    
+    transition-duration: 500ms;
+}
+
+.div-2 hr{
+    margin: 0px;
+    padding-bottom: 1px;
+    background-color: black;
+}
+
+.div-3{
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: blanchedalmond;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+.div-3 hr{
+    margin: 0px;
+    padding-bottom: 1px;
+    background-color: black;
+}
+.div-3 h2{
+    background-color: burlywood;
+}
+.div-3 section{
+    
 }
 
