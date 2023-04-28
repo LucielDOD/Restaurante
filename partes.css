@@ -83,9 +83,7 @@ nav i{
     color: midnightblue;
     background-color: burlywood;
 }
-.div-2 p{    
-    transition-duration: 500ms;
-}
+
 
 .div-2 hr{
     margin: 0px;
@@ -102,14 +100,62 @@ nav i{
     padding-right: 0.5%;
 }
 .div-3 hr{
-    margin: 0px;
+    margin-bottom: 3%;
     padding-bottom: 1px;
     background-color: black;
 }
 .div-3 h2{
     background-color: burlywood;
 }
-.div-3 section{
-    
+
+section h3{
+    background-color: cornsilk;
 }
+section h4{
+    padding-left: 5%;
+    background-color: cornsilk;
+}
+
+.contenedor-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenedor-2 h5{
+    width: 23%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 12cqmax;
+    text-align: center;
+    vertical-align: bottom;
+}
+.contenedor-2 h5:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    transition-duration: 500ms;
+}
+
+.a1{
+    background-image: url(https://www.gourmet.cl/wp-content/uploads/2018/04/Foto-editada-1-300x271.jpg);
+}
+.a2{
+    background-image: url(https://www.gourmet.cl/wp-content/uploads/2023/04/1.-Brocheta-de-camaron-salsa-de-aji-chipotle.jpg);
+}
+.a3{
+    background-image: url(https://www.gourmet.cl/wp-content/uploads/2019/10/champ6-300x200.jpg);  
+}
+.a4{
+    background-image: url(https://www.gourmet.cl/wp-content/uploads/2016/09/Salteñas-570x330-300x174.jpg);
+}
+
+.a5{
+    background-image: url(https://www.gourmet.cl/wp-content/uploads/2016/09/Consome-Pollo-Web-300x283.jpg);
+}
+
+.a6{
+    background-image: url(	https://www.gourmet.cl/wp-content/uploads/2013/05/empanadas-de-machas-a-la-parmesana-300x174.jpg);    
+}
+
 
