@@ -14,7 +14,11 @@ header{
 }
 
 body{
-    background-color: goldenrod;
+    background-image: url(https://img.freepik.com/fotos-premium/anciana-preparando-comida-cocina-casa-extendiendo-harina-hornear-receta-chef-anciano-jubilado-aspersion-uniforme-tamizado-tamizar-ingredientes-mano-mesa-cocinar-pan-pizza-casera_482257-14393.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 0px 200px;
 }
 
 header h1{
@@ -43,7 +47,7 @@ header hr{
     position: fixed;
     width: 100%;
     overflow: auto;
-
+    
 }
 .nav-li{
     float: left;
@@ -61,6 +65,7 @@ header hr{
     background-color: white;
     color: black;
     cursor: pointer;
+    
 }
 nav i{
     color: chocolate;
